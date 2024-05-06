@@ -6,26 +6,26 @@
 int main (){
 setlocale(LC_ALL,"");
 
-// Declarando variáveis. 01ª
+// Declarando variÃ¡veis. 01Âª
 
 float salarioMinimo = 1412, salario, qtdSalario;
 
 
-// Solicitando dados ao usuário. 02ª
+// Solicitando dados ao usuÃ¡rio. 02Âª
 
-printf("Digite o valor do seu salário:  ");
+printf("Digite o valor do seu salÃ¡rio:  ");
 scanf("%f",&salario);
 
 
-// Cálculo. 03ª
+// CÃ¡lculo. 03Âª
 
 qtdSalario = salario / salarioMinimo;
 
 
-// Exibindo Resultado. 04ª
+// Exibindo Resultado. 04Âª
 
 printf("\n=== Exibindo Resultado ===\n");
 printf("\n");
-printf("Quantidade de Salário: %.1f \n", qtdSalario);
+printf("Quantidade de SalÃ¡rio: %.1f \n", qtdSalario);
 return 0;	
 }
