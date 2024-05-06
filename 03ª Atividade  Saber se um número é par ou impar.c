@@ -6,23 +6,23 @@
 int main(){
 setlocale(LC_ALL,"");
 
-// Declarando Variável.
+// Declarando VariÃ¡vel.
 
 int numero;
 
 
-// Solicitando dados ao usuáro.
+// Solicitando dados ao usuÃ¡ro.
 
-printf("Informe um número: ");
+printf("Informe um nÃºmero: ");
 scanf("%i",&numero);
 
 
 // Condicional IF e ELSE.
 
 if (numero%2==0){
-	printf("Número par");	
+	printf("NÃºmero par");	
 } else {
-	printf("Número Impar");
+	printf("NÃºmero Impar");
 }
 	
 return 0;	
