@@ -7,19 +7,19 @@
  int main (){
  setlocale(LC_ALL,"");
  
- // Declarando as variáveis. 01ª
+ // Declarando as variÃ¡veis. 01Âª
  
  int quantidade;
  float precoMaca, precoTotal;
  
  
- // Solicitando dados ao usuário. 02ª
+ // Solicitando dados ao usuÃ¡rio. 02Âª
  
- printf("Informe quantas maçãs você adquiriu: ");
+ printf("Informe quantas maÃ§Ã£s vocÃª adquiriu: ");
  scanf("%f",&quantidade);
  
  
- // If e Else. 03ª
+ // If e Else. 03Âª
  
  if (quantidade <= 12){
  	precoMaca = 1.30;
@@ -28,17 +28,17 @@
  }
  
  
- // Cálculo.
+ // CÃ¡lculo.
  
  precoTotal = precoMaca * quantidade;
  
  
- // Exibindo Resultado Final. 04ª
+ // Exibindo Resultado Final. 04Âª
  
  printf("\n=== EXIBINDO RESULTADO ===\n");
- printf("Quantidade de maçãs: %i\n", quantidade);
- printf("Preço da maçã: %.2f\n",precoMaca);
- printf("Preço total: %.2f",precoTotal);
+ printf("Quantidade de maÃ§Ã£s: %i\n", quantidade);
+ printf("PreÃ§o da maÃ§Ã£: %.2f\n",precoMaca);
+ printf("PreÃ§o total: %.2f",precoTotal);
  
  return 0; 	
  }
