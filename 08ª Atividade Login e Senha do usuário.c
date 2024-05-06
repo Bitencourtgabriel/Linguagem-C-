@@ -6,7 +6,7 @@
 int main(){
 setlocale(LC_ALL,"");
 
-// Declarando variáveis. 01ª
+// Declarando variÃ¡veis. 01Âª
 
 char loginSalvo [200] = "Jesus";
 char senhaSalva [200] = "123456";
@@ -14,7 +14,7 @@ char login      [200];
 char senha      [200];
 
 
-// Solicitando dados ao usuário. 02ª
+// Solicitando dados ao usuÃ¡rio. 02Âª
 
 printf("Login: ");
 scanf("%s",&login);
@@ -22,7 +22,7 @@ scanf("%s",&login);
 printf("Senha: ");
 scanf("%s",&senha);
 
-// Condição IF & ELSE. 03ª
+// CondiÃ§Ã£o IF & ELSE. 03Âª
 
 if (strcmp(login, loginSalvo) == 0 && strcmp(senha, senhaSalva) == 0){
 	printf("Bem Vindo!");
@@ -32,7 +32,7 @@ if (strcmp(login, loginSalvo) == 0 && strcmp(senha, senhaSalva) == 0){
 return 0;	
 }
 
-// 01ª == Declarei a variáveis login e senha.
-// 02ª == Pedir que o usuário colocasse o login e senha.
-// 03ª == Usei o condição IF e ELSE para poder ler o login e senha correto. 
-// OBS: Não conseguir colocar a senha com letras só com número 
+// 01Âª == Declarei a variÃ¡veis login e senha.
+// 02Âª == Pedir que o usuÃ¡rio colocasse o login e senha.
+// 03Âª == Usei o condiÃ§Ã£o IF e ELSE para poder ler o login e senha correto. 
+// OBS: NÃ£o conseguir colocar a senha com letras sÃ³ com nÃºmero 
