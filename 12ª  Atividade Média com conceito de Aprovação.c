@@ -6,14 +6,14 @@
  int main (){
  setlocale(LC_ALL,"");
  
- // Declaração de variáveis. 01ª
+ // DeclaraÃ§Ã£o de variÃ¡veis. 01Âª
  
  float soma = 0, media, notas;
  int i;
  char resultado[200];
  char nome[200];	
  	
- // Solicitando dados ao usuário. 02ª
+ // Solicitando dados ao usuÃ¡rio. 02Âª
  
  printf("Digite seu nome: ");
  scanf("%s",&nome);
@@ -21,11 +21,11 @@
  for (i = 1; i <= 2; i++){
 
 
- 	printf("Digite sua nota da %iª unidade: ", i);
+ 	printf("Digite sua nota da %iÂª unidade: ", i);
  	scanf("%f",notas);
  
  
- // Cálculo Soma. 03ª
+ // CÃ¡lculo Soma. 03Âª
  
  soma += notas;	
   }
@@ -33,7 +33,7 @@
  media = soma / 2;
  
 
-// If e Else. 04ª
+// If e Else. 04Âª
 
 if (media >= 9){
 	strcpy (resultado," Conceito A"  );
@@ -52,7 +52,7 @@ if (media >= 9){
 	printf("Reprovado");
 
  
- // Exibindo Resultado. 05ª
+ // Exibindo Resultado. 05Âª
  
  printf("\n=== EXIBINDO RESULTADO ===\n");
  printf("Nome: %s\n", nome);
