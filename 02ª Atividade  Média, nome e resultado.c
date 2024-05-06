@@ -6,14 +6,14 @@
 int main (){
 setlocale(LC_ALL,"");
 
-// Declarando variáveis. 01ª
+// Declarando variÃ¡veis. 01Âª
 
  char nome [200];
  float soma, notas, media;
  float notaUm, notaDois, notaTres, notaQuatro;
  int idade;
 
-// Solicitando dados ao usuário. 02ª
+// Solicitando dados ao usuÃ¡rio. 02Âª
 
 
  printf("Informe seu nome: ");
@@ -35,18 +35,18 @@ scanf("%f",&notaTres);
 printf("Informe sua nota da IV unidade: ");
 scanf("%f",&notaQuatro);
 
- //  Cálculo da média. 03ª
+ //  CÃ¡lculo da mÃ©dia. 03Âª
  
  soma = notaUm + notaDois + notaTres + notaQuatro;
  media = soma / 4;
  
  
-// Limpa o termina Windows e Linux.04ª
+// Limpa o termina Windows e Linux.04Âª
 
  system("cls || clear");
  
  
- // Exibindo Resultado. 05ª
+ // Exibindo Resultado. 05Âª
  
  printf("\n=== EXIBINDO RESULTADO ===\n");
  printf("\n");
@@ -56,6 +56,6 @@ scanf("%f",&notaQuatro);
  printf("Nota da II unidade: %.1f\n", notaDois);
  printf("Nota da III unidade: %.1f\n", notaTres);
  printf("Nota da IV unidade: %.1f\n", notaQuatro);
- printf("Média do aluno: %.2f\n",media);
+ printf("MÃ©dia do aluno: %.2f\n",media);
 return 0;	
 }
