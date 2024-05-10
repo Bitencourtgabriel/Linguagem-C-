@@ -9,14 +9,13 @@
 int main (){
 setlocale(LC_ALL,"portuguese");
 	
-// Declarando as variáveis 01ª.
+// Declarando as vari?veis 01?.
 
 float soma =0, notas, media;
 int  contador = 1;	
 char continua, menu;
 	
-// Solicitando dados ao usuário 02ª.
-
+// Solicitando dados ao usu?rio 02?.
 do {
 
 	do {
@@ -30,7 +29,7 @@ do {
 		printf("[P] - Ver quantas notas foram inseridas;\n");
 		printf("[N] - Calcular a média aritmática das notas informadas.\n");
 		printf("Resposta: ");
-		scanf("%s", &continua);
+		scanf("%s",&continua);
 		continua = toupper(continua);
 		printf("\n");
 		
@@ -51,6 +50,7 @@ do {
 		printf("[N] - Calcular a média aritmática das notas informadas.\n");
 		printf("Resposta: ");
 		scanf("%s", &continua);
+		contador++;
 		system("cls || clear");
 		break;
 		
@@ -60,7 +60,7 @@ do {
 		printf("Média: %.2f\n",media);
 		break;			
         
-//		system("cls || clear");	
+// System("cls || clear");	
 	default: 
 	    printf("Operação inválida! \n");
 		system("cls || clear");
@@ -70,8 +70,8 @@ do {
 		
 // Reiniciar 05?.
  
-	 printf("\nSe você deseja continua com a opertação aperte a letra 'c'. ");
-	 scanf("%s",&menu);
+	 printf("\nSe você deseja continua com a operaração aperte a letra 'c'. ");
+	 scanf("%s", &menu);
 	 soma = 0;
 	 contador = 1;
  
