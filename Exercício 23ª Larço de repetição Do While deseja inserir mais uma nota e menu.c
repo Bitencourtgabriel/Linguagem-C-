@@ -9,28 +9,28 @@
 int main (){
 setlocale(LC_ALL,"portuguese");
 	
-// Declarando as vari?veis 01?.
+// Declarando as variÃ¡veis 01Âª.
 
 float soma =0, notas, media;
 int  contador = 1;	
 char continua, menu;
 	
-// Solicitando dados ao usu?rio 02?.
+// Solicitando dados ao usuÃ¡rio 02Âª.
 
 do {
 
 	do {
-		printf("Digite sua nota da %iª unidade: ", contador);
-		scanf("%f",&notas);
+		printf("Digite sua nota da %iÂª unidade: ", contador);
+		scanf("%f", &notas);
 		fflush(stdin);
 		printf("\n");
-		printf("Como você deseja continua? ?\n");
+		printf("Como vocÃª deseja continua? \n");
 		printf("\n");
 		printf("[S] - Inserir mais uma nota;\n");
 		printf("[P] - Ver quantas notas foram inseridas;\n");
-		printf("[N] - Calcular a média aritmática das notas informadas.\n");
+		printf("[N] - Calcular a mÃ©dia aritmÃ¡tica das notas informadas.\n");
 		printf("Resposta: ");
-		scanf("%s",&continua);
+		scanf("%s", &continua);
 		continua = toupper(continua);
 		printf("\n");
 		
@@ -45,24 +45,24 @@ do {
 	case 'P':
 		printf("Quantidade de notas inseridas : %i \n",contador);
 		fflush(stdin);	
-		printf("Como você deseja continua? \n");
+		printf("Como vocÃª deseja continua? \n");
 		printf("\n");
 		printf("[S] - Inserir mais uma nota;\n");
-		printf("[N] - Calcular a média aritmática das notas informadas.\n");
+		printf("[N] - Calcular a mÃ©dia aritmÃ¡tica das notas informadas.\n");
 		printf("Resposta: ");
-		scanf("%s",&continua);
+		scanf("%s", &continua);
 		system("cls || clear");
 		break;
 		
 	case 'N':
 		media = soma / (float) contador;
 		printf("\n=== EXIBINDO RESULTADO ===\n");
-		printf("Média: %.2f\n",media);
+		printf("MÃ©dia: %.2f\n",media);
 		break;			
         
 //		system("cls || clear");	
 	default: 
-	    printf("Operação inválida! \n");
+	    printf("OperaÃ§Ã£o invÃ¡lida! \n");
 		system("cls || clear");
 	} 	
 		
@@ -70,7 +70,7 @@ do {
 		
 // Reiniciar 05?.
  
-	 printf("\nSe você deseja continua com a opertação aperte a letra 'c'. ");
+	 printf("\nSe vocÃª deseja continua com a opertaÃ§Ã£o aperte a letra 'c'. ");
 	 scanf("%s",&menu);
 	 soma = 0;
 	 contador = 1;
