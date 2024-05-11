@@ -42,7 +42,7 @@ do {
  printf("sexo: ");
  scanf("%s",&sexo);
  sexo = toupper(sexo);
- printf("Informe seu salário: ");
+ printf("Informe seu salÃ¡rio: ");
  scanf("%f",&salario);
  system("cls || clear");
  
@@ -61,7 +61,7 @@ do {
  
 
 
-// Cálculo.
+// CÃ¡lculo.
 
    	soma += salario;	    
  	media = soma / contador;
@@ -79,14 +79,14 @@ do {
 		break;
 		
 		case '2': 			 
-		printf("Média de salário: %.2f \n", media);
+		printf("MÃ©dia de salÃ¡rio: %.2f \n", media);
 		printf("Maior idade: %i \n", maiorIdade);
 		printf("Menor idade: %i \n", menorIdade);
-		printf("Quantidade de mulheres com salário a partir de R$ 5.000,00: %d\n", salario_5000); 	
+		printf("Quantidade de mulheres com salÃ¡rio a partir de R$ 5.000,00: %d\n", salario_5000); 	
        	break;
        	
        	default: 
-       		printf("Opção inválida!");
+       		printf("OpÃ§Ã£o invÃ¡lida!");
        		system("cls || clear");
        	
  		}      	
